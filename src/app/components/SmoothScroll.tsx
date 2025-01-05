@@ -32,7 +32,7 @@ export default function SmoothScroll({
     //   });
     // }, containerRef);
 
-    return () => ctx.revert();
+    // return () => ctx.revert();
   }, []);
 
   return <div ref={containerRef}>{children}</div>;
